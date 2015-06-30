@@ -114,7 +114,7 @@ h2 {
 This should produce the following output:
 <img src="images/4.png">
 
-Notice how both <h2> elements have a font color of green. That’s because the h2 selector selects all h2 elements on the page.
+Notice how both `<h2>` elements have a font color of green. That’s because the h2 selector selects all h2 elements on the page.
 
 Change the Font
 Let’s starting trying to make this page prettier. First of all, let’s change the font to something prettier, like Arial. This is specified by the font-family property.
