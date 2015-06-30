@@ -52,11 +52,11 @@ There are three types of selectors:
 **ID selector**: can only be used one time to grab a single element.
 
 Property and value go between curly braces - in this case the property is color and the value is red
-<img src = "images/1.png" height "200" width "300">
+<img src = "images/1.png" height "100" width "200">
 Colons and semicolons are important - they end our statements.
 
 The **property-value pairs** in between the curly braces {} are the styles (color: blue sets the text color to blue), and the **selector** defines (or “selects”) which elements these styles apply to.
-<img src = "images/2.png" height "200" width "300">
+<img src = "images/2.png" height "100" width "200">
 Types of Selectors
 There are 3 basic types of selectors:
 
