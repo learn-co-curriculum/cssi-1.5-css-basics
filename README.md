@@ -101,6 +101,8 @@ Copy this boiler plate code:
   </body>
 </html>
 ```
+This is what your html page should look like
+<img src="images/htmlonly.png">
 Adding a CSS file
 We’ll define the CSS styles in a separate file.
 In your my_profile_project folder create a new file called favorite_songs_style.css
@@ -199,23 +201,25 @@ count: 0, 1, 2, 3, 4, 5, 6, 7, ,8, 9, a, b, c, d, e, f
 `#ffffff` is white
 `#0000FF` is blue (zero amounts of red and green)
 Color Picker is a great resource to find other color tones
+
 #Fonts
 Google fonts
 Browsers can only display whatever fonts are downloaded on that computer.
 If a web application is using some random font that my computer doesn't have, I won't be able to see it
 Google fonts is a great resource
 Click the quick view button
+<img src="images/6.png">
 Scroll down the page till you see this and make sure import is selected:
-Copy that the @import... text and paste it at the top of your CSS file
+Copy that the @import url and paste it at the top of your CSS file
+<img src="images/7.png">
 Step 4 shows you how to use the font:
+<img src="images/8.png">
 They chose to style the font-weight property as well, you can ignore that
+```
 h1 {
    font-family: 'Metrophobic', Arial, serif;
  }
-If you haven't already added three pages to your site: create three separate html files
-Inside of those files set up your html file structure
-Put links to your other pages in an unordered list using ul and li tags
-We will style these links as a nav bar in our next class.
+ ```
 Conclusion / So What?
 CSS allows us to add styling to our page. Together, HTML and CSS give us the web as we know it.
 
