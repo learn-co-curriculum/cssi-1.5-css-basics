@@ -50,7 +50,7 @@ Type selector: selects all of the elements by html tag
 Class selector: makes a class or a category that is associated with as many html elements
 ID selector: can only be used one time to grab a single element.
 Property and value go between curly braces - in this case the property is color and the value is red
-<img src = "images/1.png" height "200" width "200">
+<img src = "images/1.png" height "300" width "400">
 
 Colons and semicolons are important - they end our statements.
 
