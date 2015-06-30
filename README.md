@@ -27,6 +27,7 @@ CSS! CSS stands for Cascading Style Sheets. We write CSS in separate files, so t
 + Drag your my_profile.html file from the desktop into your my_profile_project folder
 + Click into your my_profile_project and your finder window should pop up
 + Create a new file called style.css
+
 #Linking our Stylesheet
 We write our CSS in a separate file - style is a different job than structure. This is called an external style sheet. You can change the styling on entire website in one css file!
 Each html page must include a reference to the external style sheet file. Copy and paste this into your my_profile.html page. It should be between the `<head>,</head>` tags
@@ -35,29 +36,30 @@ Each html page must include a reference to the external style sheet file. Copy a
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 ```
+
 #Selectors
 Open your my_profile_project in Atom and click to edit your style.css file
 In style.css, let's make our `<h1>` tags a different color.
-To make `<h1>` the color red:
+To make `<h1>` the color red we use a type selector:
 ```
 h1 {
  color: red;
 }
 ```
-h1 is a type selector it select the h1 tags from our HTML
 There are three types of selectors:
-Type selector: selects all of the elements by html tag  
-Class selector: makes a class or a category that is associated with as many html elements
-ID selector: can only be used one time to grab a single element.
+**Type selector**: selects all of the elements by html tag
+**Class selector**: makes a class or a category that is associated with as many html elements
+**ID selector**: can only be used one time to grab a single element.
+
 Property and value go between curly braces - in this case the property is color and the value is red
 <img src = "images/1.png" height "300" width "400">
-
 Colons and semicolons are important - they end our statements.
 
-The property-value pairs in between the curly braces {} are the styles (color: blue sets the text color to blue), and the selector defines (or “selects”) which elements these styles apply to.
-
+The **property-value pairs** in between the curly braces {} are the styles (color: blue sets the text color to blue), and the **selector** defines (or “selects”) which elements these styles apply to.
+<img src = "images/2.png" height "300" width "400">
 Types of Selectors
 There are 3 basic types of selectors:
+
 
 Name
 Example
