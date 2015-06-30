@@ -116,7 +116,7 @@ This should produce the following output:
 
 Notice how both `<h2>` elements have a font color of green. That’s because the h2 selector selects all h2 elements on the page.
 
-Change the Font
+Change the Font:
 Let’s starting trying to make this page prettier. First of all, let’s change the font to something prettier, like Arial. This is specified by the font-family property.
 
 We really want to change the font for all the text on the web page. How can we do that?
@@ -219,6 +219,11 @@ We will style these links as a nav bar in our next class.
 Conclusion / So What?
 CSS allows us to add styling to our page. Together, HTML and CSS give us the web as we know it.
 
-Hints and Hurdles
+#Hints and Hurdles
 Test all your CSS examples first and know how you're going to live code them. It's easy to make mistakes here that are hard to get out of on the spot.
-Stretch, have students use <div> tags and play around with box model: http://guyroutledge.github.io/box-model/
+#Labs
+Add CSS styling to your my_profile.html pages. Don't forget to reference your css stylesheet in the head of your HTML page using " reference to the external style sheet file. Copy and paste this into your my_profile.html page. It should be between the `<head>,</head>` tags
+```
+<link rel="stylesheet" type="text/css" href="style.css">
+```
+If you are finished try a stretch that is about the CSS box model: http://guyroutledge.github.io/box-model/
