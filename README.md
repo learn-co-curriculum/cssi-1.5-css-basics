@@ -219,8 +219,9 @@ We will style these links as a nav bar in our next class.
 Conclusion / So What?
 CSS allows us to add styling to our page. Together, HTML and CSS give us the web as we know it.
 
-#Hints and Hurdles
-Test all your CSS examples first and know how you're going to live code them. It's easy to make mistakes here that are hard to get out of on the spot.
+#Conclusion
+Now you know how to add styling to your HTML pages. Use different types of selectors to change elements within your HTML page.
+
 #Labs
 Add CSS styling to your my_profile.html pages. Don't forget to reference your css stylesheet in the head of your HTML page using " reference to the external style sheet file. Copy and paste this into your my_profile.html page. It should be between the `<head>,</head>` tags
 ```
