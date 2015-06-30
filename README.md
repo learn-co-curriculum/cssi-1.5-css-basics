@@ -231,4 +231,4 @@ Add CSS styling to your my_profile.html pages. Don't forget to reference your cs
 ```
 <link rel="stylesheet" type="text/css" href="style.css">
 ```
-If you are finished try a stretch that is about the CSS box model: http://guyroutledge.github.io/box-model/
+If you are finished try a stretch lab about the CSS box model: http://guyroutledge.github.io/box-model/
