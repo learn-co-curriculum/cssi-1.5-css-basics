@@ -46,10 +46,7 @@ h1 {
  color: red;
 }
 ```
-There are three types of selectors:
-**Type selector**: selects all of the elements by html tag
-**Class selector**: makes a class or a category that is associated with as many html elements
-**ID selector**: can only be used one time to grab a single element.
+
 
 Property and value go between curly braces - in this case the property is color and the value is red
 <img src = "images/1.png" height "100" width "200">
@@ -57,22 +54,14 @@ Colons and semicolons are important - they end our statements.
 
 The **property-value pairs** in between the curly braces {} are the styles (color: blue sets the text color to blue), and the **selector** defines (or “selects”) which elements these styles apply to.
 <img src = "images/2.png" height "100" width "200">
+
 Types of Selectors
-There are 3 basic types of selectors:
+There are three types of selectors:
++**Type selector**: selects all of the elements by html tag
++**Class selector**: makes a class or a category that is associated with as many html elements
++**ID selector**: can only be used one time to grab a single element.
+<img src = "images/3.png" height "100" width "200">
 
-
-Name
-Example
-Definition
-Selector
-p
- all <p> elements on the page
-Id Selector
-#abc
-   element with abc id
-Class Selector
-.abc
-   elements with abc class
 
 The first of these is a basic selector, and it’s composed of the name of the tag for which these styles apply. Using a basic selector the style rule applies to all elements of this type on the page.
 
