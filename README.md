@@ -27,13 +27,6 @@ languages: css
 So far, all we’ve been able to do is put content on a page with HTML to make some ugly looking websites. So how do we actually make our sites stuff look good?
 CSS! CSS stands for Cascading Style Sheets. We write CSS in separate files, so that each file of our web site does one job and one job only.
 
-#Code-Along-Setup
-+ On your desktop create a new folder by going to the top right of your computer and clicking "File New Folder"
-+ Rename the folder my_profile_project
-+ Drag your my_profile.html file from the desktop into your my_profile_project folder
-+ Click into your my_profile_project and your finder window should pop up
-+ Create a new file called style.css
-
 #Linking our Stylesheet
 We write our CSS in a separate file. Each html page must include a reference to the external style sheet file. The link below should be between the `<head>,</head>` tags
 ```
@@ -71,6 +64,40 @@ The first of these is a basic selector or type selector, and it’s composed of 
 An id selector selects a particular element that has the id attribute defined to a given value. For example, #main selects the HTML element that has an attribute id=main. Each id should be unique in an HTML page; no two HTML elements should have the same id.
 
 A class selector selects all elements that have the class attribute defined to a given value. For example, .navigation selects all HTML elements that have an attribute class=navigation. Classes are not unique and there can be many elements with the same class name.
+
+#Boiler Plate Code
+```
+<!DOCTYPE html>
+<html>
+  <head>
+   <link rel="stylesheet" href="my_profile_project/favorite_songs_style.css">
+    <title>My Playlists</title>
+  </head>
+  <body>
+   <h1>Victoria's Playlists</h1>
+   <h2>Workout Playlist</h2>
+   <ul>
+     <li>Break Free by Ariana Grande</li>
+     <li>Do It Again by Robyn</li>
+     <li>Shake It Off by Taylor Swift</li>
+     <li>B.O.B. by OutKast</li>
+   </ul>
+   <h2>Bedtime Playlist</h2>
+   <ul>
+     <li>Such Great Heights by Iron &amp; Wine</li>
+     <li>Passenger Seat by Death Cab for Cutie</li>
+     <li>Wedding Song by Yeah Yeah Yeahs</li>
+   </ul>
+  </body>
+</html>
+```
+
+Adding a CSS file We’ll define the CSS styles in a separate file. In your my_profile_project folder create a new file called favorite_songs_style.css Open favorite_songs_style.css in Atom Copy this boilerplate code
+```
+h2 {
+ color: green;
+}
+```
 
 # Colors
 RGB vs Hexadecimal color
