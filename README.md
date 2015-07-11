@@ -50,14 +50,14 @@ Property and value go between curly braces - in this case the property is color 
 Colons and semicolons are important - they end our statements.
 
 The **property-value pairs** in between the curly braces {} are the styles (color: blue sets the text color to blue), and the **selector** defines (or “selects”) which elements these styles apply to.
-<img src="images/2.png">
+<img src="images/2.png" height="100" width="200">
 
 # Types of Selectors
 There are three types of selectors:
 + **Type selector**: selects all of the elements by html tag
 + **Class selector**: makes a class or a category that is associated with as many html elements
 + **ID selector**: can only be used one time to grab a single element.
-<img src = "images/3.png">
+<img src= "images/3.png" height="100" width="200">
 
 The first of these is a basic selector or type selector, and it’s composed of the name of the tag for which these styles apply. Using a basic selector the style rule applies to all elements of this type on the page.
 
