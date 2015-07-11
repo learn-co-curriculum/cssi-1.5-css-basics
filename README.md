@@ -125,7 +125,7 @@ Scroll down the page till you see this and make sure import is selected:
 Copy that the @import url and paste it at the top of your CSS file
 <img src="https://raw.githubusercontent.com/learn-co-curriculum/cssi-1.5-css-basics/master/images/7.png">
 Step 4 shows you how to use the font:
-<img src="https://raw.githubusercontent.com/learn-co-curriculum/cssi-1.5-css-basics/master/images/8.png.png">
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/cssi-1.5-css-basics/master/images/8.png">
 They chose to style the font-weight property as well, you can ignore that
 ```
 h1 {
