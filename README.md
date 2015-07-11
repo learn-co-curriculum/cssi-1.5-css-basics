@@ -46,18 +46,18 @@ h1 {
 ```
 
 Property and value go between curly braces - in this case the property is color and the value is red
-<img src = "images/1.png" height "100" width "200">
+<img src = "https://raw.githubusercontent.com/learn-co-curriculum/cssi-1.5-css-basics/master/images/1.png" height "100" width "200">
 Colons and semicolons are important - they end our statements.
 
 The **property-value pairs** in between the curly braces {} are the styles (color: blue sets the text color to blue), and the **selector** defines (or “selects”) which elements these styles apply to.
-<img src = "images/2.png" height "100" width "200">
+<img src = "https://raw.githubusercontent.com/learn-co-curriculum/cssi-1.5-css-basics/master/images/2.png" height "100" width "200">
 
 # Types of Selectors
 There are three types of selectors:
 + **Type selector**: selects all of the elements by html tag
 + **Class selector**: makes a class or a category that is associated with as many html elements
 + **ID selector**: can only be used one time to grab a single element.
-<img src = "images/3.png" height "100" width "200">
+<img src = "https://raw.githubusercontent.com/learn-co-curriculum/cssi-1.5-css-basics/master/images/3.png" height "100" width "200">
 
 The first of these is a basic selector or type selector, and it’s composed of the name of the tag for which these styles apply. Using a basic selector the style rule applies to all elements of this type on the page.
 
@@ -120,12 +120,12 @@ Browsers can only display whatever fonts are downloaded on that computer.
 If a web application is using some random font that my computer doesn't have, I won't be able to see it
 Google fonts is a great resource
 Click the quick view button
-<img src="images/6.png">
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/cssi-1.5-css-basics/master/images/6.png">
 Scroll down the page till you see this and make sure import is selected:
 Copy that the @import url and paste it at the top of your CSS file
-<img src="images/7.png">
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/cssi-1.5-css-basics/master/images/7.png">
 Step 4 shows you how to use the font:
-<img src="images/8.png">
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/cssi-1.5-css-basics/master/images/8.png.png">
 They chose to style the font-weight property as well, you can ignore that
 ```
 h1 {
