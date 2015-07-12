@@ -33,7 +33,7 @@ CSS! CSS stands for Cascading Style Sheets. We write CSS in separate files, so t
 3. Type “Atom” and press enter
 4. Go to “file” and click “new file” to open a new tab
 5. Cmd+S Save as "playlist_style.css"
-6. Save the file "css" folder in "dev"
+6. Save the file in your "css" folder within "dev"
 7. Create another file in your css folder named "playlist.html"
 8. Open your "playlist.html" file in Atom
 9. Copy the boiler plate code below in your "playlist.html" file
