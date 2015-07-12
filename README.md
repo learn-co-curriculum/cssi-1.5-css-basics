@@ -110,39 +110,43 @@ h2 {
 
 # Colors
 RGB vs Hexadecimal color
-There are a few ways to get more specific with color value other than just writing "red". There are many tones of red
-RGB- stands for Red, Green, Blue. RGB color model is the ways of getting different colors through adding different amounts of Red, Green, and Blue.
-Count up from 0 amounts of each to 255 of each
-rgb(0,0,0) gives you black
-rgb(255,255,255) gives you white
-Hexademical is a different notation for the amount of Red, Green, and Blue that gets added to your color.
-count: 0, 1, 2, 3, 4, 5, 6, 7, ,8, 9, a, b, c, d, e, f
-6 values: two red, two green, two blue
-`#000000` is black
-`#ffffff` is white
-`#0000FF` is blue (zero amounts of red and green)
-Color Picker is a great resource to find other color tones
+There are a few ways to get more specific with color value other than just writing "red".
 
-#Fonts
-Google fonts
+***RGB***- stands for Red, Green, Blue. The RGB color model is the ways of getting different colors through adding different amounts of Red, Green, and Blue.
++ counts up from 0 to 255
++ rgb(0,0,0) gives you black
++ rgb(255,255,255) gives you white
+
+***Hexademical***- is a different notation for the amount of Red, Green, and Blue that gets added to your color.
++ count: 0, 1, 2, 3, 4, 5, 6, 7, ,8, 9, a, b, c, d, e, f
++ 6 values: two red, two green, two blue
++ ``#000000`` is black
++ ``#ffffff`` is white
++ ``#0000FF`` is blue (zero amounts of red and green)
+
+The ***Digital Color Meter*** tool on macs is a great resource to find exact color tones.
+
+#Google fonts
 Browsers can only display whatever fonts are downloaded on that computer.
 If a web application is using some random font that my computer doesn't have, I won't be able to see it
 Google fonts is a great resource
+
 Click the quick view button
 <img src="https://raw.githubusercontent.com/learn-co-curriculum/cssi-1.5-css-basics/master/images/6.png">
+
 Scroll down the page till you see this and make sure import is selected:
 Copy that the @import url and paste it at the top of your CSS file
 <img src="https://raw.githubusercontent.com/learn-co-curriculum/cssi-1.5-css-basics/master/images/7.png">
+
 Step 4 shows you how to use the font:
 <img src="https://raw.githubusercontent.com/learn-co-curriculum/cssi-1.5-css-basics/master/images/8.png">
+
 They chose to style the font-weight property as well, you can ignore that
 ```
 h1 {
    font-family: 'Metrophobic', Arial, serif;
  }
  ```
-Conclusion / So What?
-CSS allows us to add styling to our page. Together, HTML and CSS give us the web as we know it.
 
 #Conclusion
 Now you know how to add styling to your HTML pages. Use different types of selectors to change elements within your HTML page.
