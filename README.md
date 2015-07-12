@@ -28,11 +28,9 @@ So far, all we’ve been able to do is put content on a page with HTML to make s
 CSS! CSS stands for Cascading Style Sheets. We write CSS in separate files, so that each file of our web site does one job and one job only.
 
 #Linking our Stylesheet
-We write our CSS in a separate file. Each html page must include a reference to the external style sheet file. The link below should be between the `<head>,</head>` tags
+We write our CSS in a separate file. Each html page must include a reference to the external style sheet file. ***Open your practice.html page*** and copy the following link between the `<head>,</head>` tags
 ```
-<head>
 <link rel="stylesheet" type="text/css" href="style.css">
-</head>
 ```
 
 #Selectors
