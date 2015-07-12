@@ -71,8 +71,7 @@ We write our CSS in a separate file. Each html page must include a reference to 
 ```
 This links our new playlist_style.css page to our html page so we can apply styling to our HTML file.
 #Selectors
-Open your my_profile_project in Atom and click to edit your style.css file
-In style.css, let's make our `<h1>` tags a different color.
+Open your playlist_style.css in Atom. In playlist_style.css, let's make our `<h1>` tags a different color.
 To make `<h1>` the color red we use a type selector:
 ```
 h1 {
