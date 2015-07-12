@@ -27,12 +27,49 @@ languages: css
 So far, all we’ve been able to do is put content on a page with HTML to make some ugly looking websites. So how do we actually make our sites stuff look good?
 CSS! CSS stands for Cascading Style Sheets. We write CSS in separate files, so that each file of our web site does one job and one job only.
 
+#Setup Directions
+1. In your dev folder create a css folder
+2. Cmd+space: opens your spotlight search.
+3. Type “Atom” and press enter
+4. Go to “file” and click “new file” to open a new tab
+5. Cmd+S Save as "playlist_style.css"
+6. Save the file "css" folder in "dev"
+7. Create another file in your css folder named "playlist.html"
+8. Open your "playlist.html" file in Atom
+9. Copy the boiler plate code below in your "playlist.html" file
+
+#Boiler Plate Code
+```
+<!DOCTYPE html>
+<html>
+  <head>
+   <link rel="stylesheet" type="text/css" href="playlist_style.css">
+    <title>My Playlists</title>
+  </head>
+  <body>
+   <h1>Victoria's Playlists</h1>
+   <h2>Workout Playlist</h2>
+   <ul>
+     <li>Break Free by Ariana Grande</li>
+     <li>Do It Again by Robyn</li>
+     <li>Shake It Off by Taylor Swift</li>
+     <li>B.O.B. by OutKast</li>
+   </ul>
+   <h2>Bedtime Playlist</h2>
+   <ul>
+     <li>Such Great Heights by Iron &amp; Wine</li>
+     <li>Passenger Seat by Death Cab for Cutie</li>
+     <li>Wedding Song by Yeah Yeah Yeahs</li>
+   </ul>
+  </body>
+</html>
+```
 #Linking our Stylesheet
-We write our CSS in a separate file. Each html page must include a reference to the external style sheet file. ***Open your practice.html page*** and copy the following link between the `<head>,</head>` tags
+We write our CSS in a separate file. Each html page must include a reference to the external style sheet file. Notice between the `<head>,</head>` tags there is a link that looks like this:
 ```
 <link rel="stylesheet" type="text/css" href="style.css">
 ```
-
+This links our new playlist_style.css page to our html page so we can apply styling to our HTML file.
 #Selectors
 Open your my_profile_project in Atom and click to edit your style.css file
 In style.css, let's make our `<h1>` tags a different color.
@@ -64,33 +101,6 @@ The first of these is a basic selector or type selector, and it’s composed of 
 An id selector selects a particular element that has the id attribute defined to a given value. For example, #main selects the HTML element that has an attribute id=main. Each id should be unique in an HTML page; no two HTML elements should have the same id.
 
 A class selector selects all elements that have the class attribute defined to a given value. For example, .navigation selects all HTML elements that have an attribute class=navigation. Classes are not unique and there can be many elements with the same class name.
-
-#Boiler Plate Code
-```
-<!DOCTYPE html>
-<html>
-  <head>
-   <link rel="stylesheet" href="my_profile_project/favorite_songs_style.css">
-    <title>My Playlists</title>
-  </head>
-  <body>
-   <h1>Victoria's Playlists</h1>
-   <h2>Workout Playlist</h2>
-   <ul>
-     <li>Break Free by Ariana Grande</li>
-     <li>Do It Again by Robyn</li>
-     <li>Shake It Off by Taylor Swift</li>
-     <li>B.O.B. by OutKast</li>
-   </ul>
-   <h2>Bedtime Playlist</h2>
-   <ul>
-     <li>Such Great Heights by Iron &amp; Wine</li>
-     <li>Passenger Seat by Death Cab for Cutie</li>
-     <li>Wedding Song by Yeah Yeah Yeahs</li>
-   </ul>
-  </body>
-</html>
-```
 
 Adding a CSS file We’ll define the CSS styles in a separate file. In your my_profile_project folder create a new file called favorite_songs_style.css Open favorite_songs_style.css in Atom Copy this boilerplate code
 ```
