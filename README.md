@@ -101,7 +101,7 @@ An id selector selects a particular element that has the id attribute defined to
 
 A class selector selects all elements that have the class attribute defined to a given value. For example, .navigation selects all HTML elements that have an attribute class=navigation. Classes are not unique and there can be many elements with the same class name.
 
-Adding a CSS file We’ll define the CSS styles in a separate file. In your my_profile_project folder create a new file called favorite_songs_style.css Open favorite_songs_style.css in Atom Copy this boilerplate code
+Adding a CSS file We’ll define the CSS styles in a separate file. Open playlist_style.css in Atom try changing the colors of the h2 headings.
 ```
 h2 {
  color: green;
