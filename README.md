@@ -152,8 +152,11 @@ h1 {
 Now you know how to add styling to your HTML pages. Use different types of selectors to change elements within your HTML page.
 
 #Labs
-Add CSS styling to your my_profile.html pages. Don't forget to reference your css stylesheet in the head of your HTML page using " reference to the external style sheet file. Copy and paste this into your my_profile.html page. It should be between the `<head>,</head>` tags
+Add CSS styling to your my_profile.html pages.
++ Create a new file called style.css in your my_profile_project folder
++ Copy and paste the external link into your my_profile.html page. It should be between the `<head>,</head>` tags
 ```
 <link rel="stylesheet" type="text/css" href="style.css">
 ```
++ Edit style.css to add styling to your html page
 If you are finished try a stretch lab about the CSS box model: http://guyroutledge.github.io/box-model/
