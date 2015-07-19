@@ -128,8 +128,8 @@ The ***Digital Color Meter*** tool on macs is a great resource to find exact col
 
 #Google fonts
 Browsers can only display whatever fonts are downloaded on that computer.
-If a web application is using some random font that my computer doesn't have, I won't be able to see it
-Google fonts is a great resource
+If a web application is using some random font that my computer doesn't have, I won't be able to see it.
+[Google fonts](https://www.google.com/fonts) is a great resource:
 
 Click the quick view button
 <img src="https://raw.githubusercontent.com/learn-co-curriculum/cssi-1.5-css-basics/master/images/6.png">
