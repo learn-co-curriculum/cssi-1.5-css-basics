@@ -1,8 +1,4 @@
----
-tags: cssi, basic css, code along
-level: 1
-languages: css
----
+
 #CSS Basics
 
 #Prior Knowledge:
