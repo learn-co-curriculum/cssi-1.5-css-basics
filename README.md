@@ -156,3 +156,5 @@ Add CSS styling to your my_profile.html pages.
 ```
 + Edit style.css to add styling to your html page
 If you are finished try a stretch lab about the CSS box model: http://guyroutledge.github.io/box-model/
+
+<a href='https://learn.co/lessons/cssi-1.5-css-basics' data-visibility='hidden'>View this lesson on Learn.co</a>
